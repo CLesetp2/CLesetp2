@@ -18,7 +18,20 @@ header {
   align-items: center;
   padding: 10px 80px;
 }
-
+header.links-container {
+  width: 100%;
+}
+header.toggle-menu {
+  border: none;
+  background: none;
+  width: 30px;
+}
+.links-container.toggle-menu span {
+  display: block;
+  background-color: #ffffff;
+  height: 3px;
+  margin-bottom: 5px;
+}
 .navigation a {
   text-decoration: none;
   color: #ffffff;
